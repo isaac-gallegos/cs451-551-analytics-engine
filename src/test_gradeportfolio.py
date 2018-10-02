@@ -22,4 +22,7 @@ class TestGradePortfolioMethods(unittest.TestCase):
 
 	def test_MaleCount(self):
 		test = GradePortfolio('../data/grade-data.json')
-		self.assertEqual(test.MaleCount(), 72)			
+		self.assertEqual(test.MaleCount(), 72)	
+
+if __name__ == '__main__':
+    unittest.main()		
